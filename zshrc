@@ -10,7 +10,8 @@ ZSH_THEME="joshcrowder"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+# Link vim to mvim
+# alias vim='mvim -v'
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -27,9 +28,9 @@ DISABLE_LS_COLORS="true"
 # COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git bundler brew gem joshcrowder heroku)
+plugins=(git bundler brew gem joshcrowder heroku cake)
 
 source $ZSH/oh-my-zsh.sh
 

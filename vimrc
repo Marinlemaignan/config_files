@@ -96,10 +96,11 @@ augroup END
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " COLOR
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" :set t_Co=256 " 256 colors
-" :set background=dark
-" :color grb256
+:set t_Co=256 " 256 colors
+:set background=dark
 colorscheme railscasts
+" :color grb256
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " STATUS LINE
@@ -301,9 +302,9 @@ function! RunTests(filename)
         if filereadable("script/test")
             exec ":!script/test " . a:filename
         elseif filereadable("Gemfile")
-            exec ":!bundle exec rspec --color " . a:filename
+            exec ":!bundle exec rspec --no-color " . a:filename
         else
-            exec ":!rspec --color " . a:filename
+            exec ":!rspec --no-color " . a:filename
         end
     end
 endfunction
