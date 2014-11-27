@@ -4,3 +4,10 @@ tags
 .swo
 jferris-*.gemspec
 *.scratch.*
+.DS_Store
+.ruby-gemset
+.ruby-version
+.rvmrc
+ss.png
+ss0.png
+ss1.png

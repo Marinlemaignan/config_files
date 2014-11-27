@@ -1,14 +1,19 @@
 [user]
-	name = Josh Crowder
-	email = josh@seriousfox.co.uk
+	name = Marin
+    email = marin@seriousfox.co.uk
 [core]
-    excludesfile = /Users/josh/.gitignore
+	excludesfile = /Users/seriousfox/.gitignore
+	editor = vim 
 [alias]
     st = status
+    a = add 
+    c = commit -m
     ci = commit
     co = checkout
     di = diff
     dc = diff --cached
+    ps = push
+    cam = commit -am 
     amend = commit --amend
     aa = add --all
     ff = merge --ff-only
@@ -41,3 +46,5 @@
     ra = !git r --all
     l = "!. ~/.githelpers && pretty_git_log"
     la = !git l --all
+[push]
+	default = matching
