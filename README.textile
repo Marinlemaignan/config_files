@@ -1,17 +1,8 @@
-h1. Joe Ferris' Config Files
-
-a.k.a. dot files
-
-h2. Install
-
-Clone this repository, change into the cloned directory, and run:
+h1. Config Files
 
 <pre>
 ./install.sh
 </pre>
-
-This will create symlinks for all config files in your home directory. You can
-safely run this file multiple times to update.
 
 h2. Scripts
 
